@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.main-1{
+  display: flex;
+  flex-wrap:wrap;
+  
+  width: 100%;
+}
+.main-2{
+  width: 8rem;
+  height: 4rem;
+  border: 1px solid grey;
+  margin-bottom: 20px;
+  background-color: black;
+  opacity: .7;
+  border-radius: 10px;
+  position:relative;
+  left: 3rem;
+  margin-right: 20px;
+}
+.main-2 a{
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
